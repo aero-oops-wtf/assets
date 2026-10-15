@@ -1,0 +1,1 @@
+const o=["read","bash"],a=o.map(e=>({name:e,description:"A placeholder, held for a later release. It does nothing yet: a call returns an error and has no effect. Do not call it.",parameters:{type:"OBJECT",properties:{}}})),r=e=>o.includes(e),t=e=>`\`${e}\` is a placeholder and does nothing yet. Do not call it again; carry on without it.`;export{a as P,r as i,t as p};
