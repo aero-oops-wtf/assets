@@ -1,0 +1,1 @@
+const l=(t,n,c)=>{const s=new Blob([t.slice()],{type:c}),o=URL.createObjectURL(s),e=document.createElement("a");e.href=o,e.download=n,e.rel="noopener",e.style.display="none",document.body.appendChild(e),e.click(),e.remove(),setTimeout(()=>URL.revokeObjectURL(o),3e4)};export{l as s};
